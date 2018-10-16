@@ -13,6 +13,7 @@
 		9898826E217656A80058FE06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9898826C217656A80058FE06 /* Main.storyboard */; };
 		98988270217656AA0058FE06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9898826F217656AA0058FE06 /* Assets.xcassets */; };
 		98988273217656AA0058FE06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98988271217656AA0058FE06 /* LaunchScreen.storyboard */; };
+		9898827B217668720058FE06 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9898827A217668720058FE06 /* CameraViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		9898826F217656AA0058FE06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98988272217656AA0058FE06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98988274217656AA0058FE06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9898827A217668720058FE06 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		F7B22327122DC84794E44B4F /* Pods_ResumeScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ResumeScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -71,6 +73,7 @@
 			children = (
 				98988268217656A80058FE06 /* AppDelegate.swift */,
 				9898826A217656A80058FE06 /* ViewController.swift */,
+				9898827A217668720058FE06 /* CameraViewController.swift */,
 				9898826C217656A80058FE06 /* Main.storyboard */,
 				9898826F217656AA0058FE06 /* Assets.xcassets */,
 				98988271217656AA0058FE06 /* LaunchScreen.storyboard */,
@@ -206,6 +209,7 @@
 			files = (
 				9898826B217656A80058FE06 /* ViewController.swift in Sources */,
 				98988269217656A80058FE06 /* AppDelegate.swift in Sources */,
+				9898827B217668720058FE06 /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
