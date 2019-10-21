@@ -14,6 +14,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var username: UITextField!
     @IBOutlet weak var password: UITextField!
+    @IBOutlet weak var company_name: UITextField!
+    @IBOutlet weak var company_type: UITextField!
     
     @IBAction func login(_ sender: Any) {
         let u_name = self.username.text as! String
