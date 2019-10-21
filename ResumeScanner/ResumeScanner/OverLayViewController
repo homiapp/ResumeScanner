@@ -1,0 +1,24 @@
+//
+//  CameraViewController.swift
+//  ResumeScanner
+//
+//  Created by Jiatao Cheng on 10/21/19.
+//  Copyright © 2019 Homi, Inc. All rights reserved.
+//
+import Foundation
+import UIKit
+import AVFoundation
+
+//this opens the camera to scan the resume
+class OverLayViewController: UIViewController {
+
+    override func viewDidLoad() {
+      console.log("View Did Load");
+    }
+    
+    override func viewWillAppear() {
+      console.log("View will appear");
+    }
+    
+    
+}
