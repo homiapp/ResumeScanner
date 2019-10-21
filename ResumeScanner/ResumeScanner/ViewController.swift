@@ -29,6 +29,7 @@ class ViewController: UIViewController {
         }
     }
     
+    //signup action
     @IBAction func signup(_ sender: Any) {
         let u_name = self.username.text as! String
         let pass = self.password.text as! String
@@ -39,6 +40,7 @@ class ViewController: UIViewController {
         }
     }
     
+    //add auth listener that listens for authentication
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
         Auth.auth().addStateDidChangeListener { (auth, user) in
