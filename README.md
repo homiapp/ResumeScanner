@@ -14,3 +14,6 @@ As of right now, this application uses firebase to authenticate users after they
 1) Locate keywords in resume across multiple sections
 2) Weighted matching of job description with keyowrds
 3) ML to match resumes keywords with job descriptions
+
+#Backend
+To use this application to parse uploaded resumes and curate new jobs for users based off of their resumes
