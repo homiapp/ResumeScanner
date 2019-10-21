@@ -13,6 +13,7 @@ import AVFoundation
 var captureSession: AVCaptureSession?
 var videoPreviewLayer: AVCaptureVideoPreviewLayer?
 
+//this opens the camera to scan the resume
 class CameraViewController: UIViewController {
 
     override func viewDidLoad() {
