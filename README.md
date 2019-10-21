@@ -9,3 +9,8 @@ This application is intended to be used by recruiters @ career fairs to scan res
 
 ### Authentication
 As of right now, this application uses firebase to authenticate users after they create an account.
+
+#Additional Features
+1) Locate keywords in resume across multiple sections
+2) Weighted matching of job description with keyowrds
+3) ML to match resumes keywords with job descriptions
